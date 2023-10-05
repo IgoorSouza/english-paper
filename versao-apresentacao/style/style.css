@@ -116,7 +116,6 @@ header h1 {
   margin: 50px 0px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.76);
   padding: 20px;
-  text-indent: 30px;
 }
 
 .content h1 {
@@ -136,6 +135,7 @@ header h1 {
   line-height: 30px;
   text-align: justify;
   margin-bottom: 30px;
+  text-indent: 30px;
 }
 
 .content img {
@@ -239,7 +239,7 @@ img[alt="confetti"] {
   }
 
   header h1 {
-    font-size: 41px;
+    font-size: 40px;
     padding: 0px 10px;
   }
   

@@ -18,7 +18,7 @@ video.addEventListener('click', () => {
     video.style.display = 'none'
     transition.style.animationName = 'changeColor'
   }, 4000)
-  setTimeout(deleteTransition, 6000)
+  setTimeout(deleteTransition, 5000)
 })
 
 function deleteTransition() {

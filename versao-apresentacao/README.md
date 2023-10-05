@@ -1,0 +1,1 @@
+Essa versão do código tem como propósito apenas ser utilizada durante a apresentação do trabalho para gerar mais interesse por parte dos colegas de sala e evitar que seja uma apresentação monótona e entediante.
