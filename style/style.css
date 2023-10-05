@@ -140,6 +140,7 @@ header h1 {
   font-size: 20px;
   border-radius: 20px;
   border: 2px solid black;
+  color: white;
 }
 
 #translation:hover {
@@ -191,7 +192,7 @@ header h1 {
   }
 
   header h1 {
-    font-size: 45px;
+    font-size: 43px;
     padding: 0px 10px;
   }
   
@@ -227,7 +228,7 @@ header h1 {
   #translation {
     width: 180px;
     height: 20px;
-    margin: 0 50px 50px 0px;
+    margin: 0 25px 25px 0px;
     font-size: 18px;
   }
 }
