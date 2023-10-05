@@ -102,6 +102,7 @@ header h1 {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   color: black;
+  background-color: white;
 }
 
 .changeLang {
