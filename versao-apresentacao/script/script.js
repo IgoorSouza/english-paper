@@ -6,8 +6,8 @@ const group = document.querySelector("#presentation")
 const translation = document.querySelector("#translation")
 const en = document.querySelector("#en")
 const pt = document.querySelector("#pt")
-const enContent = document.querySelector("#english")
-const ptContent = document.querySelector("#portuguese")
+const enContent = document.getElementsByClassName("english")
+const ptContent = document.getElementsByClassName("portuguese")
 const switch1 = document.querySelector("#switch1")
 const switch2 = document.querySelector("#switch2")
 const page1 = document.querySelector("#page1")
@@ -48,8 +48,10 @@ switch2.addEventListener('click', () => {
 })
 
 pt.addEventListener('click', () => {
-  enContent.classList.add("changeLang")
-  ptContent.classList.remove("changeLang")
+  enContent[0].classList.add("changeLang")
+  enContent[1].classList.add("changeLang")
+  ptContent[0].classList.remove("changeLang")
+  ptContent[1].classList.remove("changeLang")
   pt.style.backgroundColor = 'green'
   pt.style.color = 'white'
   en.style.backgroundColor = 'white'
@@ -59,8 +61,10 @@ pt.addEventListener('click', () => {
 })
 
 en.addEventListener('click', () => {
-  ptContent.classList.add("changeLang")
-  enContent.classList.remove("changeLang")
+  enContent[0].classList.remove("changeLang")
+  enContent[1].classList.remove("changeLang")
+  ptContent[0].classList.add("changeLang")
+  ptContent[1].classList.add("changeLang")
   en.style.backgroundColor = 'blue'
   en.style.color = 'white'
   pt.style.backgroundColor = 'white'
