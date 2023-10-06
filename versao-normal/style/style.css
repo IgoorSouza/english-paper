@@ -36,7 +36,7 @@ header h1 {
 
 .content {
   width: 800px;
-  margin: 50px 0px;
+  margin: 50px 0px 30px 0px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.76);
   padding: 20px;
 }
@@ -68,6 +68,39 @@ header h1 {
 .img {
   text-align: center;
   margin: 50px 0px;
+}
+
+#switchPages {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#switch1:hover, #switch2:hover {
+  background-color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+#switch1, #switch2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#switch1 {
+  border-right: 2px solid black;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+#switch2 {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 #translation {
@@ -143,7 +176,7 @@ footer ul {
   
   .content {
     width: 330px;
-    margin: 50px 0px;
+    margin: 50px 0px 30px 0px;
   }
   
   .content h1 {
@@ -153,7 +186,6 @@ footer ul {
   
   .content h2 {
     font-size: 30px;
-    margin-left: 15px;
   }
   
   .content p {
@@ -167,7 +199,6 @@ footer ul {
   }
   
   .img {
-    text-align: center;
     margin: 40px 0px;
   }
   

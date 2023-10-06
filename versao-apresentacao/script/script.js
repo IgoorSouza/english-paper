@@ -1,3 +1,5 @@
+const video = document.querySelector("video")
+const transition = document.querySelector("#transition")
 const close = document.querySelector("#close")
 const presentation = document.querySelector("#blur")
 const group = document.querySelector("#presentation")
@@ -6,10 +8,12 @@ const en = document.querySelector("#en")
 const pt = document.querySelector("#pt")
 const enContent = document.querySelector("#english")
 const ptContent = document.querySelector("#portuguese")
-const video = document.querySelector("video")
+const switch1 = document.querySelector("#switch1")
+const switch2 = document.querySelector("#switch2")
+const page1 = document.querySelector("#page1")
+const page2 = document.querySelector("#page2")
 const confetti = document.querySelector("#confetti")
 const gif = document.querySelector("img[alt='confetti']")
-const transition = document.querySelector("#transition")
 const footerh1 = document.querySelector("#footerh1")
 
 video.addEventListener('click', () => {
@@ -31,6 +35,16 @@ close.addEventListener('click', () => {
   presentation.setAttribute("id", "closePresentation")
   document.querySelector("body").style.overflowY = 'scroll'
   translation.style.display = 'flex'
+})
+
+switch1.addEventListener('click', () => {
+  page1.classList.remove("changeLang")
+  page2.classList.add("changeLang")
+})
+
+switch2.addEventListener('click', () => {
+  page1.classList.add("changeLang")
+  page2.classList.remove("changeLang")
 })
 
 pt.addEventListener('click', () => {
@@ -59,5 +73,5 @@ confetti.addEventListener('click', () => {
   gif.style.display = 'inline-block'
   setTimeout(() => {
     gif.style.display = 'none'
-  } , 12000)
+  } , 10000)
 })

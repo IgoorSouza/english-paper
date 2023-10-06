@@ -147,6 +147,39 @@ header h1 {
   margin: 50px 0px;
 }
 
+#switchPages {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#switch1:hover, #switch2:hover {
+  background-color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+#switch1, #switch2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#switch1 {
+  border-right: 2px solid black;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+#switch2 {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
 #translation {
   display: none;
   position: fixed;
@@ -293,7 +326,6 @@ footer ul {
   }
   
   .img {
-    text-align: center;
     margin: 40px 0px;
   }
   
