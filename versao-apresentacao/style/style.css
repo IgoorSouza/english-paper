@@ -147,6 +147,14 @@ header h1 {
   margin: 50px 0px;
 }
 
+#page2 .img {
+  margin: 40px;
+}
+
+#page2 .img img {
+  width: 100%;
+}
+
 #switchPages {
   width: 100px;
   height: 30px;
@@ -307,7 +315,7 @@ footer ul {
   }
   
   .content h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
   
@@ -327,6 +335,26 @@ footer ul {
   
   .img {
     margin: 40px 0px;
+  }
+
+  #page2 p {
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 0;
+    text-align: left;
+  }
+
+  #page2 h2 {
+    font-size: 24px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  #page2 .img {
+    margin: 10px;
+  }
+
+  #page2 .img img {
+    width: 100%;
   }
   
   #translation {
