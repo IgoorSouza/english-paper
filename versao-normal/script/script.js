@@ -3,6 +3,7 @@ const en = document.querySelector("#en")
 const pt = document.querySelector("#pt")
 const enContent = document.querySelector("#english")
 const ptContent = document.querySelector("#portuguese")
+const footerh1 = document.querySelector("#footerh1")
 
 pt.addEventListener('click', () => {
   enContent.classList.add("changeLang")
@@ -11,6 +12,7 @@ pt.addEventListener('click', () => {
   pt.style.color = 'white'
   en.style.backgroundColor = 'white'
   en.style.color = 'black'
+  footerh1.innerText = 'Equipe'
 })
 
 en.addEventListener('click', () => {
@@ -20,4 +22,5 @@ en.addEventListener('click', () => {
   en.style.color = 'white'
   pt.style.backgroundColor = 'white'
   pt.style.color = 'black'
+  footerh1.innerText = 'Team'
 })

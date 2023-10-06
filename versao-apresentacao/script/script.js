@@ -10,6 +10,7 @@ const video = document.querySelector("video")
 const confetti = document.querySelector("#confetti")
 const gif = document.querySelector("img[alt='confetti']")
 const transition = document.querySelector("#transition")
+const footerh1 = document.querySelector("#footerh1")
 
 video.addEventListener('click', () => {
   video.currentTime = 1.2
@@ -39,6 +40,8 @@ pt.addEventListener('click', () => {
   pt.style.color = 'white'
   en.style.backgroundColor = 'white'
   en.style.color = 'black'
+  footerh1.innerText = 'Equipe'
+  confetti.innerText = 'Confete!'
 })
 
 en.addEventListener('click', () => {
@@ -48,6 +51,8 @@ en.addEventListener('click', () => {
   en.style.color = 'white'
   pt.style.backgroundColor = 'white'
   pt.style.color = 'black'
+  footerh1.innerText = 'Team'
+  confetti.innerText = 'Confetti!'
 })
 
 confetti.addEventListener('click', () => {
